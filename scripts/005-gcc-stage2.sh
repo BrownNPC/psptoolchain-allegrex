@@ -62,8 +62,8 @@ cd build-$TARGET-stage2
   --target="$TARGET" \
   --with-sysroot="$PSPDEV/$TARGET" \
   --with-native-system-header-dir="/include" \
-  --enable-languages="c,c++" \
-  --with-float=hard \
+  --enable-languages="c,c++,go" \
+  --with-float=hard \build-psp-stage2/psp/libbacktrace/config.log
   --with-newlib \
   --disable-libssp \
   --disable-multilib \
